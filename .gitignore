@@ -1,0 +1,25 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+reports/
+work/
+
+# Credentials, editor settings, and private observing logs
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+PHD2_GuideLog*.txt
+samples/*
+!samples/synth_heq5.txt
+!samples/synth_heq5.truth.json
